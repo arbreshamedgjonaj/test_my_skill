@@ -48,32 +48,30 @@
   background-color: #496BFE;
   overflow: hidden;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   box-sizing: border-box;
   color: white;
   padding: 30px;
-}
-.nav__logo {
-  width: 100%;
-  max-width: 186px;
-  height: 20px;
+  font-family: "Aleo", serif;
 }
 .nav__list {
-  width: 100%;
-  max-width: 525px;
-  list-style: none;
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
-  font-size: 14px;
+  align-items: center;
+  flex: row;
 }
 .nav__item {
+  list-style: none;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+.nav a {
   text-decoration: none;
-  float: left;
-  display: block;
-  text-decoration: none;
-  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
 }
 
 .footer {
