@@ -1,7 +1,7 @@
 .section__first {
     width: 100%;
     max-width: 1773px;
-    max-height: 685px;
+    min-height: 685px;
     height: 100vh;
     margin: 0 auto;
     background-image: url(/images/first.png);
@@ -11,6 +11,7 @@
 .container__first {
     width: 100%;
     max-width: 1120px;
+    min-height: 685px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
