@@ -16,23 +16,31 @@
     }
     &__top{
         width: 100%;
-        max-width: 372px;
+        max-width: 730px;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
         color: #ffffff;
     }
     &__title{
+        width: 100%;
         font-size: 48px;
         font-weight: 700;
         letter-spacing: 4.8px;
         text-align: center;
+        margin-top: 240px;
+        margin-bottom: 0;
     }
     &__text{
         width: 100%;
         max-width: 345px;
+        min-height: 26px;
+        font-size: 22px;
+        letter-spacing: 6px;
+        margin-top: 0;
     }
 }
 
