@@ -40,6 +40,38 @@ main {
   background-image: url(/images/first.png);
 }
 
+.section__second {
+  width: 100%;
+  max-width: 1770px;
+  max-height: 340px;
+  margin: 0 auto;
+  background-image: url(/images/second.png);
+}
+
+.section__third {
+  width: 100%;
+  max-width: 1770px;
+  max-height: 700px;
+  margin: 0 auto;
+  background-image: url(/images/third.png);
+}
+
+.section__fourth {
+  width: 100%;
+  max-width: 1770px;
+  max-height: 700px;
+  margin: 0 auto;
+  background-image: url(/images/fourth.png);
+}
+
+.section__fifth {
+  width: 100%;
+  max-width: 1770px;
+  max-height: 731px;
+  margin: 0 auto;
+  background-image: url(/images/fifth.png);
+}
+
 body {
   margin: 0 auto;
   font-family: "Josefin Sans", sans-serif;
