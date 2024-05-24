@@ -16,6 +16,7 @@
     }
     &__top{
         width: 100%;
+        max-width: 372px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -23,14 +24,18 @@
         justify-content: center;
         color: #ffffff;
     }
+    &__title{
+        font-size: 48px;
+        font-weight: 700;
+        letter-spacing: 4.8px;
+        text-align: center;
+    }
+    &__text{
+        width: 100%;
+        max-width: 345px;
+    }
+}
 
-}
-h1{
-    font-size: 48px;
-    font-weight: 700;
-    letter-spacing: 4.8px;
-    text-align: center;
-}
 
 .nav {
     width: 100%;
