@@ -6,6 +6,15 @@
   background-image: url(/images/image\ 1.png);
 }
 
+.nav {
+  width: 100%;
+  height: 83px;
+  background-color: #496BFE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .footer {
   width: 100%;
   max-width: 1770px;
