@@ -74,6 +74,7 @@
   width: 100%;
   max-width: 1770px;
   max-height: 700px;
+  height: 100vh;
   margin: 0 auto;
   background-image: url(/images/third.png);
 }
@@ -82,6 +83,7 @@
   width: 100%;
   max-width: 1770px;
   max-height: 700px;
+  height: 100vh;
   margin: 0 auto;
   background-image: url(/images/fourth.png);
 }
@@ -90,6 +92,7 @@
   width: 100%;
   max-width: 1770px;
   max-height: 731px;
+  height: 100vh;
   margin: 0 auto;
   background-image: url(/images/fifth.png);
 }
