@@ -20,7 +20,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   color: #ffffff;
 }
 .header__title {
@@ -55,14 +55,17 @@
   width: 100%;
   max-width: 1770px;
   max-height: 685px;
+  height: 100vh;
   margin: 0 auto;
   background-image: url(/images/first.png);
+  background-size: contain;
 }
 
 .section__second {
   width: 100%;
   max-width: 1770px;
   max-height: 340px;
+  height: 100vh;
   margin: 0 auto;
   background-image: url(/images/second.png);
 }
@@ -101,4 +104,7 @@ main {
   max-width: 1773px;
   margin: 0 auto;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }/*# sourceMappingURL=index.css.map */
