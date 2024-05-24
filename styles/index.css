@@ -46,9 +46,34 @@
   width: 100%;
   height: 83px;
   background-color: #496BFE;
+  overflow: hidden;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
+  color: white;
+  padding: 30px;
+}
+.nav__logo {
+  width: 100%;
+  max-width: 186px;
+  height: 20px;
+}
+.nav__list {
+  width: 100%;
+  max-width: 525px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 14px;
+}
+.nav__item {
+  text-decoration: none;
+  float: left;
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .footer {
