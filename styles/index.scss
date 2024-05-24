@@ -5,12 +5,15 @@
 @import 'sectionOne';
 
 
+
 body{
     margin: 0 auto;
     font-family: fonts.$main-font;
 }
-
-.container__wrap {
+main{
     width: 100%;
-    max-width: 1770px;
+    height: 100vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
 }
