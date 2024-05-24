@@ -23,3 +23,17 @@ main{
     
 }
 
+button{
+    width: 100%;
+    font-family: fonts.$second-font;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    background-color: #5474FD;
+    padding: 20px;
+    border: none;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: #5d6897;
+}
